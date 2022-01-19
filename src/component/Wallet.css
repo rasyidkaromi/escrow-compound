@@ -1,0 +1,50 @@
+.walletCard {
+	margin: 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	background-color: #111;
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	background-color: red;
+  }
+  
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+
+  .sticky-nav {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+  }
+
+  .sticky-nav2 {
+	position: sticky;
+	top: -20;
+	z-index: 99;
+  }
+
